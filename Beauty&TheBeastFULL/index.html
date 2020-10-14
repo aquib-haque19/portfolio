@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Range</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <img src="images/title.png" alt="title_name" class="name">
+
+        <div>
+            <div id="ImageRange"></div>
+            <input type="range" class="range" name="" value="0" onmousemove="imageSlider(this.value)" onChange="imageSlider(this.value)">
+        </div>
+
+        <script type="text/javascript">
+            function imageSlider(value) {
+
+                document.getElementById('ImageRange').style.width = +value + "%";
+            }
+        </script>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+/*---------------------------------------  Navbar Section ---------------------------------------*/
+
+#nav-bar {
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(45deg, #3a98c4, #000000);
+    padding: 0 !important;
+    border-bottom: 2px solid #000000a6;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.navbar-nav li a {
+    color: #ffffff !important;
+    padding: 2px;
+    font-weight: 500;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    background-color: coral;
+    padding: 2px;
+    border-radius: 5px;
+    color: #ffffff !important;
+    font-weight: 500;
+    transform: translate(-5px, 5px);
+    transition: .5s ease-in-out;
+}
+
+.navbar .dropdown-menu {
+    background-image: linear-gradient(to top, #3a98c4, #000000ef);
+}
+
+.fa-bars {
+    color: #da5904;
+    font-size: 30px !important;
+}
+
+.form-control {
+    font-family: "FontAwesome";
+    text-align: center;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/*---------------------------------------  Banner Section ---------------------------------------*/
+
+#banner {
+    background-image: url('img/bg1.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo-title {
+    font-family: Satisfy;
+    width: 40%;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    top: 100px;
+    left: 40%;
+    color: #ffffff;
+    text-decoration: underline #494949;
+}
+
+span {
+    color: coral;
+}
+
+
+/*---------------------------------------  Carousael Section ---------------------------------------*/
+
+#carousel {
+    padding: 80px 0;
+    background-image: url('img/bg-c4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+
+/*--------------------------------------- Image section Grid  ---------------------------------------*/
+
+#grid {
+    padding: 40px 0 0;
+    background-image: linear-gradient(45deg, #3a98c4, #000000ef);
+}
+
+.container-fluid h3 {
+    font-family: Satisfy;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: underline coral;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.container-fluid h3:hover {
+    font-family: Satisfy;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: underline white;
+    color: coral;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.container-fluid p {
+    color: #fff;
+}
+
+#grid img {
+    cursor: pointer;
+}
+
+#grid img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------  testimonial Section ---------------------------------------*/
+
+#testi {
+    background-image: linear-gradient(45deg, #3a98c4, #000000ef);
+    padding: 80px 0;
+    color: #fff;
+    font-family: "FontAwesome";
+}
+
+#testi .grey-text {
+    color: coral;
+}
+
+#testi h2 {
+    font-family: satisfy;
+    font-size: 2.3rem;
+    color: #aaa9a9;
+}
+
+#testi h4,
+h6 {
+    color: #ec602d;
+}
+
+
+/*---------------------------------------  Footer Section ---------------------------------------*/
+
+.footer {
+    background-image: linear-gradient(45deg, #656c6e, #000000ef, #656c6e);
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.footer ul {
+    padding: 5px 50px;
+    display: flex;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 5px;
+    filter: invert(1);
+}
+
+.footer img {
+    max-width: 20px;
+}
+
+.footer ul li a:hover {
+    filter: invert(0);
+}
